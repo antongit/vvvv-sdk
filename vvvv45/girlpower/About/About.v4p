@@ -1,0 +1,641 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.1.dtd" >
+   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\Blueprint\About.v4p" scrollx="15" scrolly="90" systemname="About" filename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\Blueprint\About.v4p" locked="1">
+   <BOUNDS type="Window" left="2295" top="2295" width="9240" height="9510">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="33.0.0">
+   </PACK>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="6" systemname="IOBox (Color)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="13440" top="7665" width="2250" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="13440" top="7665" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" visible="1" slicecount="1" values="|0.82353,0.90980,1.00000,1.00000|">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="S (Color)" nodename="S (Color)" componentmode="Hidden" id="11" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="13440" top="8670" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   <PIN pinname="Send String" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="6" srcpinname="Color Output" dstnodeid="11" dstpinname="Input Value">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="12" systemname="IOBox (String)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="14415" top="8310" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="14415" top="8310" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="LineColor">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="devnul">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="12" srcpinname="Output String" dstnodeid="11" dstpinname="Send String">
+   </LINK>
+   <NODE systemname="Group (GDI)" nodename="Group (GDI)" componentmode="Hidden" id="44" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="2055" top="22575" width="3015" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 2" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Layer Template Count" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Layer 3" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE systemname="Group (GDI)" nodename="Group (GDI)" componentmode="Hidden" id="66" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="4320" top="21600" width="8355" height="270">
+   </BOUNDS>
+   <PIN pinname="Layer 1" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 2" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Layer Template Count" slicecount="1" values="10">
+   </PIN>
+   <PIN pinname="Layer 3" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 5" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 6" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 8" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 9" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 10" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 7" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="75" systemname="IOBox (Color)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="13440" top="9105" width="2250" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="13440" top="9105" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" visible="1" slicecount="1" values="|0.11765,0.20784,0.29412,1.00000|">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="S (Color)" nodename="S (Color)" componentmode="Hidden" id="74" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="13440" top="10110" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   <PIN pinname="Send String" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="75" srcpinname="Color Output" dstnodeid="74" dstpinname="Input Value">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="73" systemname="IOBox (String)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="14505" top="9720" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="14505" top="9720" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="BackColor">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="devnul">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="73" srcpinname="Output String" dstnodeid="74" dstpinname="Send String">
+   </LINK>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="93" systemname="IOBox (Color)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="13440" top="6090" width="2250" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="13440" top="6090" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" visible="1" slicecount="1" values="|0.43137,0.51765,0.60784,1.00000|">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="S (Color)" nodename="S (Color)" componentmode="Hidden" id="92" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="13440" top="7095" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   <PIN pinname="Send String" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="93" srcpinname="Color Output" dstnodeid="92" dstpinname="Input Value">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="91" systemname="IOBox (String)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="14760" top="6720" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="14760" top="6720" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="BlockColorON">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="devnul">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="91" srcpinname="Output String" dstnodeid="92" dstpinname="Send String">
+   </LINK>
+   <NODE nodename="IOBox (Color)" componentmode="InABox" id="132" systemname="IOBox (Color)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="13440" top="4590" width="2250" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="13440" top="4590" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Color Input" visible="1" slicecount="1" values="|0.23529,0.32157,0.41176,1.00000|">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="S (Color)" nodename="S (Color)" componentmode="Hidden" id="131" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="13440" top="5595" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   <PIN pinname="Send String" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="132" srcpinname="Color Output" dstnodeid="131" dstpinname="Input Value">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="130" systemname="IOBox (String)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="14760" top="5220" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="14760" top="5220" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="BlockColor">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="devnul">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="130" srcpinname="Output String" dstnodeid="131" dstpinname="Send String">
+   </LINK>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="214" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="5970" top="14595" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="5970" top="14595" width="480" height="480">
+   </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Bang">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Update">
+   </PIN>
+   </NODE>
+   <NODE systemname="IOBox (Color)" nodename="IOBox (Color)" componentmode="InABox" id="543" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="13440" top="3135" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="13440" top="3135" width="2250" height="480">
+   </BOUNDS>
+   <PIN pinname="Color Input" slicecount="1" values="|0.44694,0.21933,0.25370,1.00000|">
+   </PIN>
+   <PIN pinname="Color Output" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="S (Color)" nodename="S (Color)" componentmode="Hidden" id="545" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="13440" top="4140" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input Value" visible="1" slicecount="1" values="|1.00000,1.00000,1.00000,1.00000|">
+   </PIN>
+   <PIN pinname="Send String" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="544" systemname="IOBox (String)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="14595" top="3735" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="14595" top="3735" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="Alert">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="devnul">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="544" srcpinname="Output String" dstnodeid="545" dstpinname="Send String">
+   </LINK>
+   <LINK srcnodeid="543" srcpinname="Color Output" dstnodeid="545" dstpinname="Input Value">
+   </LINK>
+   <NODE systemname="MidiInfo" filename="%VVVV%\girlpower\About\Blueprint\MidiInfo.v4p" nodename="MidiInfo.v4p" componentmode="Hidden" id="639" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="10120" top="19536" width="2400" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6228" top="14461" width="7785" height="10150">
+   </BOUNDS>
+   <BOUNDS type="Window" left="15660" top="4125" width="8025" height="10620">
+   </BOUNDS>
+   <PIN pinname="X" slicecount="1" visible="1" values="-0.96">
+   </PIN>
+   <PIN pinname="Y">
+   </PIN>
+   <PIN pinname="Width" slicecount="1" visible="1" values="0.546">
+   </PIN>
+   <PIN pinname="Bottom Edge" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="CommandLineInfo" filename="%VVVV%\girlpower\About\Blueprint\CommandLineInfo.v4p" nodename="CommandLineInfo.v4p" componentmode="Hidden" id="646" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="8500" top="18005" width="1500" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6170" top="14618" width="4660" height="6775">
+   </BOUNDS>
+   <BOUNDS type="Window" left="17730" top="8190" width="7815" height="8985">
+   </BOUNDS>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Width" visible="1" slicecount="1" values="0.7">
+   </PIN>
+   <PIN pinname="Y">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Bottom Edge" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="647" systemname="IOBox (Value Advanced)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="8490" top="14850" width="510" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="8490" top="14850" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="-0.96">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="647" srcpinname="Y Output Value" dstnodeid="646" dstpinname="X">
+   </LINK>
+   <NODE systemname="PacksInfo" filename="%VVVV%\girlpower\About\Blueprint\PacksInfo.v4p" nodename="PacksInfo.v4p" componentmode="Hidden" id="659" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="9284" top="18778" width="2070" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6914" top="15593" width="4740" height="6370">
+   </BOUNDS>
+   <BOUNDS type="Window" left="12660" top="7065" width="7095" height="9240">
+   </BOUNDS>
+   <PIN pinname="Width" visible="1">
+   </PIN>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Path" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1" slicecount="1" values="0.53">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="214" srcpinname="Y Output Value" dstnodeid="659" dstpinname="Update" hiddenwhenlocked="1">
+   </LINK>
+   <LINK srcnodeid="659" srcpinname="Bottom Edge" dstnodeid="639" dstpinname="Y">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="661" systemname="IOBox (Value Advanced)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="12450" top="14850" width="510" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="12450" top="14850" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.7">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="661" srcpinname="Y Output Value" dstnodeid="659" dstpinname="Width">
+   </LINK>
+   <LINK srcnodeid="661" srcpinname="Y Output Value" dstnodeid="639" dstpinname="Width">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="662" systemname="IOBox (Value Advanced)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="13380" top="19680" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="13380" top="19680" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.266">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Subtract (Value)" nodename="Subtract (Value)" componentmode="Hidden" id="663" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="13155" top="20730" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="661" srcpinname="Y Output Value" dstnodeid="663" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="662" srcpinname="Y Output Value" dstnodeid="663" dstpinname="Input 2">
+   </LINK>
+   <LINK srcnodeid="647" srcpinname="Y Output Value" dstnodeid="659" dstpinname="X">
+   </LINK>
+   <LINK srcnodeid="647" srcpinname="Y Output Value" dstnodeid="639" dstpinname="X">
+   </LINK>
+   <NODE systemname="SerialInfo" filename="%VVVV%\girlpower\About\Blueprint\SerialInfo.v4p" componentmode="Hidden" id="667" nodename="SerialInfo.v4p" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="10935" top="20415" width="930" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="10935" top="20415" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="19830" top="7875" width="8220" height="8340">
+   </BOUNDS>
+   <PIN pinname="Width" visible="1" slicecount="1" values="0.226">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Right Edge" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="662" srcpinname="Y Output Value" dstnodeid="667" dstpinname="Width">
+   </LINK>
+   <LINK srcnodeid="639" srcpinname="Bottom Edge" dstnodeid="667" dstpinname="Y">
+   </LINK>
+   <LINK srcnodeid="647" srcpinname="Y Output Value" dstnodeid="667" dstpinname="X">
+   </LINK>
+   <NODE systemname="DongleInfo" filename="%VVVV%\girlpower\About\Blueprint\DongleInfo.v4p" nodename="DongleInfo.v4p" componentmode="Hidden" id="668" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="11798" top="21215" width="1410" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="9038" top="18413" width="5520" height="5605">
+   </BOUNDS>
+   <BOUNDS type="Window" left="-1" top="-1" width="5520" height="5605">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="667" srcpinname="Right Edge" dstnodeid="668" dstpinname="X">
+   </LINK>
+   <LINK srcnodeid="639" srcpinname="Bottom Edge" dstnodeid="668" dstpinname="Y">
+   </LINK>
+   <LINK srcnodeid="663" srcpinname="Output" dstnodeid="668" dstpinname="Width">
+   </LINK>
+   <NODE systemname="VersionRow" filename="%VVVV%\girlpower\About\Blueprint\VersionRow.v4p" componentmode="Hidden" id="727" nodename="%VVVV%\girlpower\About\Blueprint\VersionRow.v4p" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="4710" top="20490" width="1110" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4710" top="20490" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="13350" top="2955" width="14160" height="9795">
+   </BOUNDS>
+   <PIN pinname="Update" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="214" srcpinname="Y Output Value" dstnodeid="727" dstpinname="Update" hiddenwhenlocked="1">
+   </LINK>
+   <LINK srcnodeid="727" srcpinname="Layer" dstnodeid="66" dstpinname="Layer 2">
+   </LINK>
+   <NODE systemname="Credits" filename="%VVVV%\girlpower\About\Blueprint\Credits.v4p" nodename="%VVVV%\girlpower\About\Blueprint\Credits.v4p" componentmode="Hidden" id="728" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="605" top="21739" width="1170" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="420" top="18109" width="8025" height="7260">
+   </BOUNDS>
+   <BOUNDS type="Window" left="14460" top="9885" width="11670" height="12765">
+   </BOUNDS>
+   <PIN pinname="Top Padding" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Pause" visible="1" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <NODE systemname="PathInfo" filename="%VVVV%\girlpower\About\Blueprint\PathInfo.v4p" componentmode="Hidden" id="734" nodename="%VVVV%\girlpower\About\Blueprint\PathInfo.v4p" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="5970" top="20490" width="1155" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="5970" top="20490" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="11865" top="5535" width="6540" height="3420">
+   </BOUNDS>
+   <PIN pinname="Do Rescan" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="214" srcpinname="Y Output Value" dstnodeid="734" dstpinname="Do Rescan" hiddenwhenlocked="1">
+   </LINK>
+   <LINK srcnodeid="734" srcpinname="Layer" dstnodeid="66" dstpinname="Layer 3">
+   </LINK>
+   <NODE systemname="NetworkInfo" filename="%VVVV%\girlpower\About\Blueprint\NetworkInfo.v4p" nodename="%VVVV%\girlpower\About\Blueprint\NetworkInfo.v4p" componentmode="Hidden" id="735" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="6799" top="16327" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3142" top="12602" width="7315" height="7450">
+   </BOUNDS>
+   <BOUNDS type="Window" left="9330" top="6630" width="7305" height="8160">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="214" srcpinname="Y Output Value" dstnodeid="735" dstpinname="Update" hiddenwhenlocked="1">
+   </LINK>
+   <NODE systemname="GraphicInfo" filename="%VVVV%\girlpower\About\Blueprint\GraphicInfo.v4p" nodename="%VVVV%\girlpower\About\Blueprint\GraphicInfo.v4p" componentmode="Hidden" id="736" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="7657" top="17029" width="1635" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3772" top="12390" width="7770" height="11545">
+   </BOUNDS>
+   <BOUNDS type="Window" left="14985" top="2445" width="12750" height="13515">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Text" slicecount="1" values="|1920 x 1200|">
+   </PIN>
+   <PIN pinname="Bottom Edge" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="214" srcpinname="Y Output Value" dstnodeid="736" dstpinname="Update" hiddenwhenlocked="1">
+   </LINK>
+   <LINK srcnodeid="735" srcpinname="Bottom Edge" dstnodeid="736" dstpinname="Y">
+   </LINK>
+   <LINK srcnodeid="736" srcpinname="Bottom Edge" dstnodeid="646" dstpinname="Y">
+   </LINK>
+   <LINK srcnodeid="646" srcpinname="Layer" dstnodeid="66" dstpinname="Layer 6">
+   </LINK>
+   <LINK srcnodeid="659" srcpinname="Layer" dstnodeid="66" dstpinname="Layer 7">
+   </LINK>
+   <LINK srcnodeid="639" srcpinname="Layer" dstnodeid="66" dstpinname="Layer 8">
+   </LINK>
+   <LINK srcnodeid="667" srcpinname="Layer" dstnodeid="66" dstpinname="Layer 9">
+   </LINK>
+   <LINK srcnodeid="668" srcpinname="Output" dstnodeid="66" dstpinname="Layer 10">
+   </LINK>
+   <NODE systemname="R (Color)" nodename="R (Color)" componentmode="Hidden" id="738" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="2400" top="23400" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="BackColor">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="646" srcpinname="Bottom Edge" dstnodeid="659" dstpinname="Y">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="744" systemname="IOBox (Value Advanced)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="6780" top="14865" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="6780" top="14865" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.96">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="744" srcpinname="Y Output Value" dstnodeid="735" dstpinname="Y">
+   </LINK>
+   <LINK srcnodeid="661" srcpinname="Y Output Value" dstnodeid="646" dstpinname="Width">
+   </LINK>
+   <NODE systemname="Subtract (Value)" nodename="Subtract (Value)" componentmode="Hidden" id="747" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="1710" top="21150" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="744" srcpinname="Y Output Value" dstnodeid="747" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="736" srcpinname="Bottom Edge" dstnodeid="747" dstpinname="Input 2">
+   </LINK>
+   <LINK srcnodeid="747" srcpinname="Output" dstnodeid="728" dstpinname="Top Padding">
+   </LINK>
+   <NODE systemname="Contour" filename="%VVVV%\girlpower\About\Blueprint\Contour.v4p" nodename="%VVVV%\girlpower\About\Blueprint\Contour.v4p" componentmode="Hidden" id="760" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="2788" top="21813" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="540" top="19708" width="9120" height="4210">
+   </BOUNDS>
+   <BOUNDS type="Window" left="10245" top="11400" width="9120" height="5505">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="760" srcpinname="Layer 1" dstnodeid="44" dstpinname="Layer 4">
+   </LINK>
+   <LINK srcnodeid="66" srcpinname="Layer" dstnodeid="44" dstpinname="Layer 3">
+   </LINK>
+   <LINK srcnodeid="728" srcpinname="Layer" dstnodeid="44" dstpinname="Layer 1">
+   </LINK>
+   <LINK srcnodeid="760" srcpinname="Layer" dstnodeid="44" dstpinname="Layer 2">
+   </LINK>
+   <NODE systemname="FrameDelay (Value)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="FrameDelay (Value)" componentmode="Hidden" id="761" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="2355" top="24450" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Output 1" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="761" srcpinname="Output 1" dstnodeid="728" dstpinname="Pause" linkstyle="Bezier" hiddenwhenlocked="1">
+   <LINKPOINT x="0" y="25815">
+   </LINKPOINT>
+   <LINKPOINT x="0" y="20865">
+   </LINKPOINT>
+   </LINK>
+   <LINK srcnodeid="735" srcpinname="Layer" dstnodeid="66" dstpinname="Layer 4">
+   </LINK>
+   <LINK srcnodeid="736" srcpinname="Layer" dstnodeid="66" dstpinname="Layer 5">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="762" systemname="IOBox (Value Advanced)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="8520" top="10530" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="8520" top="10530" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="600">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="763" systemname="IOBox (Value Advanced)" hiddenwhenlocked="1">
+   <BOUNDS type="Box" left="9615" top="10515" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="9615" top="10515" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Input Value" slicecount="1" values="600">
+   </PIN>
+   </NODE>
+   <NODE id="0" systemname="Renderer (GDI)" nodename="Renderer (GDI)" componentmode="InABox">
+   <BOUNDS type="Node" left="0" top="15" width="1350" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="0" top="15" width="9030" height="9150">
+   </BOUNDS>
+   <PIN pinname="Actual Backbuffer Height" visible="1">
+   </PIN>
+   <PIN pinname="Actual Backbuffer Width" visible="1">
+   </PIN>
+   <PIN pinname="Left Button" visible="1">
+   </PIN>
+   <BOUNDS type="Window" left="18060" top="555" width="9240" height="9510">
+   </BOUNDS>
+   <PIN pinname="Background Color" visible="1">
+   </PIN>
+   <PIN pinname="Layers" visible="1">
+   </PIN>
+   <PIN pinname="Viewport Matrix Transformation" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Actual Backbuffer Height" dstnodeid="763" dstpinname="Y Input Value" hiddenwhenlocked="1">
+   </LINK>
+   <LINK srcnodeid="0" srcpinname="Actual Backbuffer Width" dstnodeid="762" dstpinname="Y Input Value" hiddenwhenlocked="1">
+   </LINK>
+   <LINK srcnodeid="0" srcpinname="Left Button" dstnodeid="761" dstpinname="Input 1" hiddenwhenlocked="1">
+   </LINK>
+   <LINK srcnodeid="738" srcpinname="Input Value" dstnodeid="0" dstpinname="Background Color" hiddenwhenlocked="1">
+   </LINK>
+   <LINK srcnodeid="44" srcpinname="Layer" dstnodeid="0" dstpinname="Layers" hiddenwhenlocked="1">
+   </LINK>
+   </PATCH>

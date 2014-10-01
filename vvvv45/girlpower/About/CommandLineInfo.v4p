@@ -1,9 +1,9 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha33.2.dtd" >
-   <PATCH nodename="C:\Work\Anton-work\Blaupause\CommandLineInfo.v4p" systemname="CommandLineInfo" filename="C:\Work\Anton-work\Blaupause\CommandLineInfo.v4p">
+   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\CommandLineInfo.v4p" systemname="CommandLineInfo" filename="C:\Work\Anton-work\Blaupause\CommandLineInfo.v4p" scrollx="0" scrolly="0">
    <NODE nodename="IOBox (String)" componentmode="InABox" id="0" systemname="IOBox (String)">
-   <BOUNDS type="Box" left="2915" top="3720" width="1230" height="240">
+   <BOUNDS type="Box" left="2900" top="3930" width="1230" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="2915" top="3720" width="0" height="0">
+   <BOUNDS type="Node" left="2900" top="3930" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Input String" slicecount="1" visible="1" values="|COMMAND LINE|">
    </PIN>
@@ -120,8 +120,6 @@
    <PIN pinname="Maximum Characters" slicecount="1" values="-1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="3" srcpinname="Y Output Value" dstnodeid="2" dstpinname="X">
-   </LINK>
    <NODE id="9" systemname="IOBox (Value Advanced)" componentmode="InABox" nodename="IOBox (Value Advanced)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Y">
    </PIN>
@@ -129,12 +127,10 @@
    </BOUNDS>
    <BOUNDS type="Node" left="1650" top="485" width="750" height="240">
    </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
    </NODE>
-   <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="2" dstpinname="Y">
-   </LINK>
    <LINK srcnodeid="0" srcpinname="Output String" dstnodeid="2" dstpinname="Desc">
-   </LINK>
-   <LINK srcnodeid="7" srcpinname="Output" dstnodeid="2" dstpinname="Text">
    </LINK>
    <NODE id="10" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
@@ -149,9 +145,9 @@
    <NODE id="11" systemname="IOBox (Value Advanced)" componentmode="InABox" nodename="IOBox (Value Advanced)">
    <PIN pinname="Descriptive Name" slicecount="1" values="|Bottom Edge|">
    </PIN>
-   <BOUNDS type="Box" left="4425" top="5700" width="750" height="240">
+   <BOUNDS type="Box" left="3675" top="5775" width="750" height="240">
    </BOUNDS>
-   <BOUNDS type="Node" left="4425" top="5700" width="750" height="240">
+   <BOUNDS type="Node" left="3675" top="5775" width="750" height="240">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="2" srcpinname="Bottom Edge" dstnodeid="11" dstpinname="Y Input Value">
@@ -166,16 +162,16 @@
    </LINK>
    <LINK srcnodeid="6" srcpinname="Remainder" dstnodeid="7" dstpinname="Input 2">
    </LINK>
-   <BOUNDS type="Window" left="17730" top="8190" width="7815" height="8985">
+   <BOUNDS type="Window" left="11820" top="2880" width="7815" height="8805">
    </BOUNDS>
-   <PACK Name="addonpack" Version="32.2.0">
+   <PACK Name="addonpack" Version="33.0.0">
    </PACK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="14" systemname="IOBox (Value Advanced)">
    <BOUNDS type="Box" left="2625" top="450" width="795" height="240">
    </BOUNDS>
    <BOUNDS type="Node" left="2625" top="450" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.546">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.7">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -185,5 +181,65 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="14" srcpinname="Y Output Value" dstnodeid="2" dstpinname="Width">
+   </LINK>
+   <NODE systemname="Subtract (Value)" nodename="Subtract (Value)" componentmode="Hidden" id="18">
+   <BOUNDS type="Node" left="1635" top="1185" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="17" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="1890" top="810" width="585" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1890" top="810" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="-0.003">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="17" srcpinname="Y Output Value" dstnodeid="18" dstpinname="Input 2">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="Y Output Value" dstnodeid="2" dstpinname="X">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="18" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="18" srcpinname="Output" dstnodeid="2" dstpinname="Y">
+   </LINK>
+   <NODE systemname="Ellipsis (String)" filename="%VVVV%\girlpower\About\Ellipsis (String).v4p" nodename="Ellipsis (String)" componentmode="Hidden" id="19">
+   <BOUNDS type="Node" left="3075" top="4680" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Length" slicecount="1" visible="1" values="35">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="7" srcpinname="Output" dstnodeid="19" dstpinname="Input">
+   </LINK>
+   <LINK srcnodeid="19" srcpinname="Output" dstnodeid="2" dstpinname="Text">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="20" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="3315" top="4350" width="375" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="3315" top="4350" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="35">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="20" srcpinname="Y Output Value" dstnodeid="19" dstpinname="Length">
    </LINK>
    </PATCH>

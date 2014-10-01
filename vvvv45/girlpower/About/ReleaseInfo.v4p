@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha33.2.dtd" >
-   <PATCH nodename="C:\Work\Anton-work\Blaupause\ReleaseInfo.v4p" systemname="ReleaseInfo" filename="C:\Work\Anton-work\Blaupause\ReleaseInfo.v4p" scrollx="0" scrolly="0">
+   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\Blueprint\ReleaseInfo.v4p" systemname="ReleaseInfo" filename="C:\Work\Anton-work\Blaupause\ReleaseInfo.v4p" scrollx="0" scrolly="0">
    <NODE nodename="IOBox (String)" componentmode="InABox" id="0" systemname="IOBox (String)">
    <BOUNDS type="Box" left="2910" top="5895" width="795" height="240">
    </BOUNDS>
@@ -29,7 +29,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="1500" top="6540" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="22260" top="2715" width="17160" height="12600">
+   <BOUNDS type="Window" left="21030" top="11040" width="17160" height="12600">
    </BOUNDS>
    <PIN pinname="X" visible="1" slicecount="1" values="-178.99">
    </PIN>
@@ -41,13 +41,15 @@
    </PIN>
    <PIN pinname="Text" visible="1">
    </PIN>
-   <PIN pinname="Padding Y" slicecount="1" values="-0.018">
+   <PIN pinname="Padding Y" slicecount="1" values="-0.018" visible="1">
    </PIN>
-   <PIN pinname="Width" slicecount="1" values="2.49" visible="1">
+   <PIN pinname="Width" slicecount="1" visible="1" values="2.49">
    </PIN>
    <PIN pinname="Right Edge" visible="1">
    </PIN>
    <PIN pinname="Height" visible="1">
+   </PIN>
+   <PIN pinname="Padding X" visible="1">
    </PIN>
    </NODE>
    <NODE systemname="Separate (String)" nodename="Separate (String)" componentmode="Hidden" id="3">
@@ -199,7 +201,7 @@
    </BOUNDS>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   <PIN pinname="Value Type" slicecount="1" values="Real">
    </PIN>
    </NODE>
    <NODE id="17" systemname="IOBox (Value Advanced)" componentmode="InABox" nodename="IOBox (Value Advanced)">
@@ -211,7 +213,7 @@
    </BOUNDS>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   <PIN pinname="Value Type" slicecount="1" values="Real">
    </PIN>
    </NODE>
    <LINK srcnodeid="0" srcpinname="Output String" dstnodeid="2" dstpinname="Desc">
@@ -245,6 +247,8 @@
    </BOUNDS>
    <BOUNDS type="Node" left="4305" top="485" width="750" height="240">
    </BOUNDS>
+   <PIN pinname="Value Type" slicecount="1" values="Real">
+   </PIN>
    </NODE>
    <LINK srcnodeid="20" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Time">
    </LINK>
@@ -278,9 +282,9 @@
    </LINK>
    <LINK srcnodeid="13" srcpinname="Output String" dstnodeid="11" dstpinname="To">
    </LINK>
-   <BOUNDS type="Window" left="21840" top="5580" width="6690" height="9165">
+   <BOUNDS type="Window" left="20985" top="5190" width="6690" height="9165">
    </BOUNDS>
-   <PACK Name="addonpack" Version="32.2.0">
+   <PACK Name="addonpack" Version="33.0.0">
    </PACK>
    <LINK srcnodeid="16" srcpinname="Y Output Value" dstnodeid="2" dstpinname="X">
    </LINK>
@@ -291,15 +295,15 @@
    </BOUNDS>
    <BOUNDS type="Node" left="2130" top="495" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="124">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.42">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
    <PIN pinname="Precision" slicecount="1" values="4">
    </PIN>
-   <PIN pinname="Descriptive Name" slicecount="1" values="Width">
+   <PIN pinname="Descriptive Name" slicecount="1" values="||">
    </PIN>
-   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   <PIN pinname="Value Type" slicecount="1" values="Real">
    </PIN>
    </NODE>
    <LINK srcnodeid="21" srcpinname="Y Output Value" dstnodeid="2" dstpinname="Width">
@@ -309,7 +313,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="3045" top="435" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -317,9 +321,37 @@
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="Height">
    </PIN>
-   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   <PIN pinname="Value Type" slicecount="1" values="Real">
    </PIN>
    </NODE>
    <LINK srcnodeid="22" srcpinname="Y Output Value" dstnodeid="2" dstpinname="Height">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="23" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="2280" top="5925" width="570" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2280" top="5925" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="-0.018">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="23" srcpinname="Y Output Value" dstnodeid="2" dstpinname="Padding Y">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="24" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="2145" top="5580" width="480" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2145" top="5580" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.03">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="24" srcpinname="Y Output Value" dstnodeid="2" dstpinname="Padding X">
    </LINK>
    </PATCH>

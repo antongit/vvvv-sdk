@@ -1,0 +1,99 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha33.2.dtd" >
+   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\Blueprint\PathInfo.v4p" systemname="PathInfo" filename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\Blueprint\PathInfo.v4p">
+   <BOUNDS type="Window" left="11865" top="5535" width="6540" height="3420">
+   </BOUNDS>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="3" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="2140" top="975" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2140" top="975" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="PATH">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="m">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="HorizontalTextWidthDesc" filename="%VVVV%\girlpower\About\Blueprint\HorizontalTextWidthDesc.v4p" nodename="HorizontalTextWidthDesc.v4p" componentmode="Hidden" id="2">
+   <BOUNDS type="Node" left="1200" top="1632" width="0" height="0">
+   </BOUNDS>
+   <BOUNDS type="Box" left="90" top="0" width="8970" height="5020">
+   </BOUNDS>
+   <BOUNDS type="Window" left="8310" top="9210" width="8970" height="6600">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Desc" visible="1">
+   </PIN>
+   <PIN pinname="X" visible="1" slicecount="1" values="-0.93">
+   </PIN>
+   <PIN pinname="Y" visible="1" slicecount="1" values="-0.9">
+   </PIN>
+   <PIN pinname="String" visible="1">
+   </PIN>
+   <PIN pinname="Offset" slicecount="1" values="0.12">
+   </PIN>
+   <PIN pinname="Text" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="3" srcpinname="Output String" dstnodeid="2" dstpinname="Desc">
+   </LINK>
+   <NODE systemname="SystemFolder (File)" nodename="SystemFolder (File)" componentmode="Hidden" id="1">
+   <BOUNDS type="Node" left="3085" top="945" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Folder" visible="1">
+   </PIN>
+   <PIN pinname="Do Rescan" visible="1" slicecount="1" values="0">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Enumerations)" componentmode="InABox" id="0" systemname="IOBox (Enumerations)">
+   <BOUNDS type="Box" left="3100" top="570" width="1110" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="3100" top="570" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input Enum" slicecount="1" visible="1" values="Application">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="0" srcpinname="Output Enum" dstnodeid="1" dstpinname="Folder">
+   </LINK>
+   <LINK srcnodeid="1" srcpinname="Output" dstnodeid="2" dstpinname="Text">
+   </LINK>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="4" systemname="IOBox (Node)">
+   <BOUNDS type="Box" left="1200" top="2175" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1200" top="2175" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="2" srcpinname="Layer" dstnodeid="4" dstpinname="Input Node">
+   </LINK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="5" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="4650" top="315" width="480" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4650" top="315" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Bang">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Do Rescan|">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="5" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Do Rescan">
+   </LINK>
+   <PACK Name="addonpack" Version="33.0.0">
+   </PACK>
+   </PATCH>

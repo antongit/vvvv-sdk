@@ -14,7 +14,7 @@ using VVVV.Core.Logging;
 namespace VVVV.Nodes
 {
 	#region PluginInfo
-	[PluginInfo(Name = "Stringify3", Category = "Enumerations", Version = "Static", Help = "Basic template with native .NET enum type", Tags = "")]
+	[PluginInfo(Name = "Entry2String", Category = "Enumerations", Version = "", Help = "Converts an enumerated value to its corresponding string", Tags = "")]
 	#endregion PluginInfo
 	public class StaticEnumerationsStringify3Node : IPluginEvaluate
 	{

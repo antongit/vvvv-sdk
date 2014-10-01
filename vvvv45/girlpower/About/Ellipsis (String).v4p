@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha33.2.dtd" >
-   <PATCH nodename="C:\Work\Anton-work\Blaupause\Ellipsis (String).v4p" systemname="Ellipsis (String)" filename="C:\Work\Anton-work\Blaupause\Ellipsis (String).v4p" scrollx="0" scrolly="0">
+   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\Ellipsis (String).v4p" systemname="Ellipsis (String)" filename="C:\Work\Anton-work\Blaupause\Ellipsis (String).v4p" scrollx="0" scrolly="0">
    <BOUNDS type="Window" left="12345" top="7080" width="9000" height="6720">
    </BOUNDS>
    <NODE systemname="Pad (String)" nodename="Pad (String)" componentmode="Hidden" id="12">
@@ -224,7 +224,7 @@
    </LINK>
    <INFO author="" description="Clips the string to the given length and adds up ellipsis characters." tags="Clip">
    </INFO>
-   <PACK Name="addonpack" Version="32.2.0">
+   <PACK Name="addonpack" Version="33.0.0">
    </PACK>
    <LINK srcnodeid="0" srcpinname="Output String" dstnodeid="9" dstpinname="Input 1">
    </LINK>

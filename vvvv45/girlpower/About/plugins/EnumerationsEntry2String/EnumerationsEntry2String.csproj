@@ -6,11 +6,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Library</OutputType>
     <RootNamespace>VVVV.Nodes</RootNamespace>
-    <AssemblyName>StaticEnumerationsStringify3</AssemblyName>
+    <AssemblyName>EnumerationsEntry2String</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
-    <ReferencePath>..\..\..\..\vvvv-sdk\vvvv45\lib\core\;..\..\..\..\vvvv-sdk\vvvv45\lib\nodes\plugins\</ReferencePath>
+    <ReferencePath>..\..\..\..\lib\core\;..\..\..\..\lib\nodes\plugins\</ReferencePath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -47,8 +47,8 @@
     <Reference Include="VVVV.Utils3rdParty" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EnumerationsEntry2StringNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StaticEnumerationsStringify3Node.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
 </Project>
