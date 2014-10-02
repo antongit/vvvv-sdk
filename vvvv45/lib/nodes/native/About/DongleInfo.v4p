@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha33.2.dtd" >
-   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\About\DongleInfo.v4p" systemname="DongleInfo" filename="C:\Work\Anton-work\Blaupause\DongleInfo.v4p" scrollx="0" scrolly="0">
+   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\lib\nodes\native\About\DongleInfo.v4p" systemname="DongleInfo" filename="C:\Work\Anton-work\Blaupause\DongleInfo.v4p" scrollx="0" scrolly="0">
    <NODE nodename="IOBox (String)" componentmode="InABox" id="0" systemname="IOBox (String)">
    <BOUNDS type="Box" left="2600" top="2340" width="765" height="240">
    </BOUNDS>
@@ -170,24 +170,8 @@
    </LINK>
    <LINK srcnodeid="5" srcpinname="Output" dstnodeid="3" dstpinname="Text">
    </LINK>
-   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="12" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Box" left="4245" top="1500" width="795" height="240">
-   </BOUNDS>
-   <BOUNDS type="Node" left="4245" top="1500" width="0" height="0">
-   </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="1">
-   </PIN>
-   <PIN pinname="Units" slicecount="1" values="||">
-   </PIN>
-   <PIN pinname="Precision" slicecount="1" values="4">
-   </PIN>
-   <PIN pinname="Value Type" slicecount="1" values="Integer">
-   </PIN>
-   <PIN pinname="Y Output Value" visible="1">
-   </PIN>
-   </NODE>
-   <LINK srcnodeid="12" srcpinname="Y Output Value" dstnodeid="5" dstpinname="Switch">
+   <LINK srcnodeid="4" srcpinname="Is Protection Mode" dstnodeid="5" dstpinname="Switch">
    </LINK>
-   <LINK srcnodeid="12" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Switch">
+   <LINK srcnodeid="4" srcpinname="Is Protection Mode" dstnodeid="1" dstpinname="Switch">
    </LINK>
    </PATCH>
