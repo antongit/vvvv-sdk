@@ -1,0 +1,243 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha33.2.dtd" >
+   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\Blueprint\HorizontalTextWidthDesc.v4p" systemname="HorizontalTextWidthDesc" filename="C:\Work\Anton-work\Blaupause\HorizontalTextWidthDesc.v4p">
+   <BOUNDS type="Window" left="8310" top="9210" width="8970" height="6600">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="33.0.0">
+   </PACK>
+   <NODE systemname="Text (GDI)" nodename="Text (GDI)" componentmode="Hidden" id="21">
+   <BOUNDS type="Node" left="945" top="3465" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="Text" visible="1">
+   </PIN>
+   <PIN pinname="Brush Color" visible="1" slicecount="1" values="|0.00000,0.00000,0.00000,1.00000|">
+   </PIN>
+   <PIN pinname="Show Brush" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="HorizontalAlign" slicecount="1" values="Left">
+   </PIN>
+   <PIN pinname="Width" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Height" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Size" visible="1">
+   </PIN>
+   <PIN pinname="Pen Color" visible="1">
+   </PIN>
+   <PIN pinname="VerticalAlign" slicecount="1" values="Top">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="20" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="3510" top="2835" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="3510" top="2835" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="13">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="px">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Color)" nodename="R (Color)" componentmode="Hidden" id="19">
+   <BOUNDS type="Node" left="2805" top="1950" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="BlockColorON">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Add (Value)" nodename="Add (Value)" componentmode="Hidden" id="18">
+   <BOUNDS type="Node" left="4320" top="2835" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="17" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="4590" top="510" width="450" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4590" top="510" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.12">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="X Input Value" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Offset">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="15" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="6900" top="2835" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="6900" top="2835" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="14">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="px">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <NODE systemname="R (Color)" nodename="R (Color)" componentmode="Hidden" id="14">
+   <BOUNDS type="Node" left="6690" top="2355" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="LineColor">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="13" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="2745" top="525" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2745" top="525" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="DATE">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="m">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Desc">
+   </PIN>
+   </NODE>
+   <NODE id="12" systemname="IOBox (Value Advanced)" componentmode="InABox" nodename="IOBox (Value Advanced)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="X">
+   </PIN>
+   <BOUNDS type="Box" left="930" top="525" width="480" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="930" top="525" width="750" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="13" srcpinname="Output String" dstnodeid="21" dstpinname="Text">
+   </LINK>
+   <LINK srcnodeid="20" srcpinname="Y Output Value" dstnodeid="21" dstpinname="Size">
+   </LINK>
+   <LINK srcnodeid="19" srcpinname="Input Value" dstnodeid="21" dstpinname="Pen Color">
+   </LINK>
+   <NODE id="11" systemname="IOBox (Value Advanced)" componentmode="InABox" nodename="IOBox (Value Advanced)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="Y">
+   </PIN>
+   <BOUNDS type="Box" left="1830" top="525" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1830" top="525" width="750" height="240">
+   </BOUNDS>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="17" srcpinname="Y Output Value" dstnodeid="18" dstpinname="Input 2">
+   </LINK>
+   <NODE systemname="Group (GDI)" nodename="Group (GDI)" componentmode="Hidden" id="10">
+   <BOUNDS type="Node" left="2835" top="4170" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer 1" visible="1">
+   </PIN>
+   <PIN pinname="Layer 2" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="21" srcpinname="Layer" dstnodeid="10" dstpinname="Layer 1">
+   </LINK>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="9" systemname="IOBox (Node)">
+   <BOUNDS type="Box" left="2850" top="4800" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2850" top="4800" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="10" srcpinname="Layer" dstnodeid="9" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="12" srcpinname="Y Output Value" dstnodeid="21" dstpinname="X">
+   </LINK>
+   <LINK srcnodeid="12" srcpinname="Y Output Value" dstnodeid="18" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="11" srcpinname="Y Output Value" dstnodeid="21" dstpinname="Y">
+   </LINK>
+   <NODE id="7" systemname="Text (GDI)" nodename="Text (GDI)" componentmode="Hidden">
+   <PIN pinname="VerticalAlign" slicecount="1" values="Top">
+   </PIN>
+   <PIN pinname="Text" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <BOUNDS type="Node" left="4335" top="3465" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1" slicecount="1" values="-0.05">
+   </PIN>
+   <PIN pinname="Brush Color" visible="1" slicecount="1" values="|0.00000,0.00000,0.00000,1.00000|">
+   </PIN>
+   <PIN pinname="Show Brush" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="HorizontalAlign" slicecount="1" values="Left">
+   </PIN>
+   <PIN pinname="Width" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Height" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Size" visible="1">
+   </PIN>
+   <PIN pinname="Pen Color" visible="1">
+   </PIN>
+   <PIN pinname="TextRenderingMode" slicecount="1" values="SingleLine">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="7" srcpinname="Layer" dstnodeid="10" dstpinname="Layer 2">
+   </LINK>
+   <LINK srcnodeid="14" srcpinname="Input Value" dstnodeid="7" dstpinname="Pen Color">
+   </LINK>
+   <LINK srcnodeid="15" srcpinname="Y Output Value" dstnodeid="7" dstpinname="Size">
+   </LINK>
+   <LINK srcnodeid="18" srcpinname="Output" dstnodeid="7" dstpinname="X">
+   </LINK>
+   <NODE systemname="Add (Value)" nodename="Add (Value)" componentmode="Hidden" id="22">
+   <BOUNDS type="Node" left="4740" top="2850" width="555" height="270">
+   </BOUNDS>
+   <PIN pinname="Input 1" visible="1">
+   </PIN>
+   <PIN pinname="Output" visible="1">
+   </PIN>
+   <PIN pinname="Input 2" slicecount="1" values="0.004">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="11" srcpinname="Y Output Value" dstnodeid="22" dstpinname="Input 1">
+   </LINK>
+   <LINK srcnodeid="22" srcpinname="Output" dstnodeid="7" dstpinname="Y">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="26" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="5265" top="495" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="5265" top="495" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="C:\Work\vvvv-sdk\vvvv45\">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="m">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Text">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="26" srcpinname="Output String" dstnodeid="7" dstpinname="Text">
+   </LINK>
+   </PATCH>

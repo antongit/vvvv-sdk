@@ -1,0 +1,221 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha33.2.dtd" >
+   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\About\NetworkInfo.v4p" systemname="NetworkInfo" filename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\Blueprint\NetworkInfo.v4p">
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="0" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="4235" top="3435" width="1410" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4235" top="3435" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="|NETWORK CARDS|">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="m">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="IP (Network)" nodename="IP (Network)" componentmode="Hidden" id="1">
+   <BOUNDS type="Node" left="5715" top="3405" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Update" visible="1">
+   </PIN>
+   <PIN pinname="Description" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="2" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="2915" top="2250" width="285" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2915" top="2250" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="IP">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="m">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="IP (Network)" nodename="IP (Network)" componentmode="Hidden" id="3">
+   <BOUNDS type="Node" left="3285" top="2295" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Update" visible="1">
+   </PIN>
+   <PIN pinname="Description" visible="1">
+   </PIN>
+   <PIN pinname="Standard Gateway" visible="1">
+   </PIN>
+   <PIN pinname="IP" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Group (GDI)" nodename="Group (GDI)" componentmode="Hidden" id="4">
+   <BOUNDS type="Node" left="3285" top="5850" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer 2" visible="1">
+   </PIN>
+   <PIN pinname="Layer 1" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="QuadAndVertText" filename="%VVVV%\girlpower\About\Blueprint\QuadAndVertText.v4p" componentmode="Hidden" id="5" nodename="QuadAndVertText.v4p">
+   <BOUNDS type="Node" left="1500" top="2970" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1500" top="2970" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="11910" top="4170" width="17160" height="12840">
+   </BOUNDS>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Desc" visible="1">
+   </PIN>
+   <PIN pinname="Text" visible="1">
+   </PIN>
+   <PIN pinname="Padding Y" slicecount="1" values="-0.018">
+   </PIN>
+   <PIN pinname="Width" slicecount="1" values="0.33">
+   </PIN>
+   <PIN pinname="Height" slicecount="1" visible="1" values="0">
+   </PIN>
+   <PIN pinname="Right Edge" visible="1">
+   </PIN>
+   <PIN pinname="Pen Color" slicecount="1" values="|0.24959,0.34111,0.43678,1.00000|">
+   </PIN>
+   </NODE>
+   <NODE systemname="QuadAndVertText" filename="%VVVV%\girlpower\About\Blueprint\QuadAndVertText.v4p" componentmode="Hidden" id="6" nodename="QuadAndVertText.v4p">
+   <BOUNDS type="Node" left="3540" top="4140" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3540" top="4140" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="8985" top="7455" width="17160" height="7695">
+   </BOUNDS>
+   <PIN pinname="X" visible="1">
+   </PIN>
+   <PIN pinname="Y" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Desc" visible="1">
+   </PIN>
+   <PIN pinname="Text" visible="1">
+   </PIN>
+   <PIN pinname="Padding Y" slicecount="1" values="-0.018">
+   </PIN>
+   <PIN pinname="Width" slicecount="1" values="1.598">
+   </PIN>
+   <PIN pinname="Height" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Bottom Edge" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="7" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="1500" top="1500" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1500" top="1500" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="-0.96">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="8" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="1620" top="240" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1620" top="240" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.96">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Y">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="9" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="1980" top="2445" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1980" top="2445" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.21">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Y Output Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="7" srcpinname="Y Output Value" dstnodeid="5" dstpinname="X">
+   </LINK>
+   <LINK srcnodeid="8" srcpinname="Y Output Value" dstnodeid="5" dstpinname="Y">
+   </LINK>
+   <LINK srcnodeid="2" srcpinname="Output String" dstnodeid="5" dstpinname="Desc">
+   </LINK>
+   <LINK srcnodeid="3" srcpinname="IP" dstnodeid="5" dstpinname="Text">
+   </LINK>
+   <NODE id="10" systemname="IOBox (Value Advanced)" componentmode="InABox" nodename="IOBox (Value Advanced)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="Update">
+   </PIN>
+   <BOUNDS type="Box" left="3285" top="500" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="3285" top="500" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="3" dstpinname="Update">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Layer" dstnodeid="4" dstpinname="Layer 1">
+   </LINK>
+   <LINK srcnodeid="6" srcpinname="Layer" dstnodeid="4" dstpinname="Layer 2">
+   </LINK>
+   <NODE id="11" systemname="IOBox (Node)" componentmode="InABox" nodename="IOBox (Node)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
+   </PIN>
+   <BOUNDS type="Box" left="3285" top="6450" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="3285" top="6450" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="4" srcpinname="Layer" dstnodeid="11" dstpinname="Input Node">
+   </LINK>
+   <LINK srcnodeid="5" srcpinname="Right Edge" dstnodeid="6" dstpinname="X">
+   </LINK>
+   <LINK srcnodeid="8" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Y">
+   </LINK>
+   <LINK srcnodeid="0" srcpinname="Output String" dstnodeid="6" dstpinname="Desc">
+   </LINK>
+   <LINK srcnodeid="1" srcpinname="Description" dstnodeid="6" dstpinname="Text">
+   </LINK>
+   <NODE id="12" systemname="IOBox (Value Advanced)" componentmode="InABox" nodename="IOBox (Value Advanced)">
+   <PIN pinname="Descriptive Name" slicecount="1" values="|Bottom Edge|">
+   </PIN>
+   <BOUNDS type="Box" left="5745" top="6450" width="750" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="5745" top="6450" width="750" height="240">
+   </BOUNDS>
+   </NODE>
+   <LINK srcnodeid="6" srcpinname="Bottom Edge" dstnodeid="12" dstpinname="Y Input Value">
+   </LINK>
+   <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Update">
+   </LINK>
+   <BOUNDS type="Window" left="9330" top="6630" width="7305" height="8160">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="33.0.0">
+   </PACK>
+   <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="5" dstpinname="Height">
+   </LINK>
+   <LINK srcnodeid="9" srcpinname="Y Output Value" dstnodeid="6" dstpinname="Height">
+   </LINK>
+   </PATCH>

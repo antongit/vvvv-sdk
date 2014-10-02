@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha33.2.dtd" >
-   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\SerialInfo.v4p" systemname="SerialInfo" filename="C:\Work\Anton-work\Blaupause\SerialInfo.v4p" scrollx="0" scrolly="0">
-   <BOUNDS type="Window" left="19830" top="7875" width="5520" height="6255">
+   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\About\SerialInfo.v4p" systemname="SerialInfo" filename="C:\Work\Anton-work\Blaupause\SerialInfo.v4p" scrollx="0" scrolly="0">
+   <BOUNDS type="Window" left="19830" top="7875" width="8220" height="8340">
    </BOUNDS>
    <NODE id="4" nodename="IOBox (String)" componentmode="InABox" systemname="IOBox (String)">
    <BOUNDS type="Box" left="1670" top="2835" width="975" height="240">
