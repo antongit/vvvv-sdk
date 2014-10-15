@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha33.2.dtd" >
-   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\Blueprint\Credits.v4p" systemname="Credits" filename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\Blueprint\Credits.v4p" scrollx="0" scrolly="0">
+   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\lib\nodes\native\About\Credits.v4p" systemname="Credits" filename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\Blueprint\Credits.v4p" scrollx="0" scrolly="0">
    <NODE hiddenwhenlocked="1" id="0" nodename="Add (String Spectral)" systemname="Add (String Spectral)">
    <PIN pinname="Output" visible="1">
    </PIN>
@@ -199,7 +199,7 @@
    </PIN>
    <PIN pinname="Pen Color" visible="1">
    </PIN>
-   <PIN pinname="HorizontalAlign" slicecount="1" values="Center">
+   <PIN pinname="HorizontalAlign" slicecount="1" values="Left">
    </PIN>
    </NODE>
    <NODE systemname="R (Color)" nodename="R (Color)" componentmode="Hidden" id="13">
