@@ -90,9 +90,9 @@
    </LINK>
    <LINK srcnodeid="3" srcpinname="Y Output Value" dstnodeid="4" dstpinname="Height">
    </LINK>
-   <BOUNDS type="Window" left="10245" top="11400" width="5610" height="5025">
+   <BOUNDS type="Window" left="12150" top="10815" width="9120" height="5505">
    </BOUNDS>
-   <PACK Name="addonpack" Version="33.0.0">
+   <PACK Name="addonpack" Version="33.3.0">
    </PACK>
    <NODE nodename="IOBox (Node)" componentmode="InABox" id="13" systemname="IOBox (Node)">
    <BOUNDS type="Box" left="1500" top="3540" width="795" height="240">
@@ -101,9 +101,7 @@
    </BOUNDS>
    <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
    </PIN>
-   <PIN pinname="Input Node" visible="1">
+   <PIN pinname="Input Node" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
-   <LINK srcnodeid="4" srcpinname="Layer" dstnodeid="13" dstpinname="Input Node">
-   </LINK>
    </PATCH>

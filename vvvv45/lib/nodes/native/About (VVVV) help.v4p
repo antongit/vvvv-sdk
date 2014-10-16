@@ -1,8 +1,8 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha33.2.dtd" >
-   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\lib\nodes\native\About (VVVV) help.v4p" scrollx="15" scrolly="75" systemname="About" filename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\Blueprint\About.v4p" locked="1">
-   <BOUNDS type="Window" left="2040" top="2700" width="9240" height="9510">
+   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\lib\nodes\native\About (VVVV) help.v4p" scrollx="0" scrolly="-1299" systemname="About" filename="C:\Work\vvvv-sdk\vvvv45\girlpower\About\Blueprint\About.v4p" locked="0">
+   <BOUNDS type="Window" left="2040" top="2805" width="9240" height="14745">
    </BOUNDS>
-   <PACK Name="addonpack" Version="33.0.0">
+   <PACK Name="addonpack" Version="33.3.0">
    </PACK>
    <NODE nodename="IOBox (Color)" componentmode="InABox" id="6" systemname="IOBox (Color)" hiddenwhenlocked="1">
    <BOUNDS type="Box" left="13440" top="4665" width="2250" height="480">
@@ -251,7 +251,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="8490" top="9900" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="-0.96">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.27">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -543,11 +543,13 @@
    </BOUNDS>
    <BOUNDS type="Box" left="5970" top="15540" width="4800" height="3600">
    </BOUNDS>
-   <BOUNDS type="Window" left="11865" top="5535" width="6540" height="3420">
+   <BOUNDS type="Window" left="11865" top="5535" width="12750" height="5025">
    </BOUNDS>
    <PIN pinname="Do Rescan" visible="1">
    </PIN>
    <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Pen Color" visible="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="214" srcpinname="Y Output Value" dstnodeid="734" dstpinname="Do Rescan" hiddenwhenlocked="1">
@@ -601,9 +603,9 @@
    </BOUNDS>
    <BOUNDS type="Box" left="540" top="14758" width="9120" height="4210">
    </BOUNDS>
-   <BOUNDS type="Window" left="10245" top="11400" width="9120" height="5505">
+   <BOUNDS type="Window" left="12150" top="10815" width="9120" height="5505">
    </BOUNDS>
-   <PIN pinname="Layer" visible="1">
+   <PIN pinname="Layer" visible="1" slicecount="1" values="||">
    </PIN>
    </NODE>
    <LINK srcnodeid="760" srcpinname="Layer" dstnodeid="44" dstpinname="Layer 2" hiddenwhenlocked="1">
@@ -623,5 +625,15 @@
    </PIN>
    </NODE>
    <LINK srcnodeid="764" srcpinname="Y Output Value" dstnodeid="663" dstpinname="Input 3" hiddenwhenlocked="1">
+   </LINK>
+   <NODE systemname="R (Color)" nodename="R (Color)" componentmode="Hidden" id="765" hiddenwhenlocked="1">
+   <BOUNDS type="Node" left="7050" top="15075" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Receive String" slicecount="1" values="BlockColor">
+   </PIN>
+   <PIN pinname="Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="765" srcpinname="Input Value" dstnodeid="734" dstpinname="Pen Color" hiddenwhenlocked="1">
    </LINK>
    </PATCH>
