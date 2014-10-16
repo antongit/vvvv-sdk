@@ -1,17 +1,19 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha33.2.dtd" >
-   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\girlpower\Spreading\01_Overview.v4p" scrollx="0" scrolly="300" systemname="01_Overview" filename="C:\Work\vvvv-sdk\vvvv45\girlpower\Spreading\01_Overview.v4p">
-   <BOUNDS type="Window" left="1125" top="1035" width="13290" height="15585">
+   <PATCH nodename="C:\Work\vvvv-sdk\vvvv45\girlpower\Spreading\01_Overview.v4p" scrollx="0" scrolly="0" systemname="01_Overview" filename="C:\Work\vvvv-sdk\vvvv45\girlpower\Spreading\01_Overview.v4p">
+   <BOUNDS type="Window" left="345" top="585" width="21705" height="16260">
    </BOUNDS>
    <NODE systemname="BarSpread (Spreads)" nodename="BarSpread (Spreads)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="255" top="2655" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="GetSpread (Spreads)" nodename="GetSpread (Spreads)" componentmode="Hidden" id="6">
-   <BOUNDS type="Node" left="3825" top="3435" width="100" height="100">
+   <BOUNDS type="Node" left="3375" top="3435" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="GetSpread (Spreads Advanced)" filename="%VVVV%\addonpack\lib\nodes\plugins\GetSpreadAdv.dll" nodename="GetSpread (Spreads Advanced)" componentmode="Hidden" id="7">
-   <BOUNDS type="Node" left="3810" top="3795" width="100" height="100">
+   <BOUNDS type="Node" left="4245" top="3435" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4245" top="3435">
    </BOUNDS>
    </NODE>
    <NODE systemname="I (Spreads)" nodename="I (Spreads)" componentmode="Hidden" id="8">
@@ -19,57 +21,65 @@
    </BOUNDS>
    </NODE>
    <NODE systemname="SetSpread (Spreads)" filename="%VVVV%\addonpack\lib\nodes\plugins\SetSpread.dll" nodename="SetSpread (Spreads)" componentmode="Hidden" id="9">
-   <BOUNDS type="Node" left="3810" top="4590" width="100" height="100">
+   <BOUNDS type="Node" left="3375" top="3795" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3375" top="3795">
    </BOUNDS>
    </NODE>
    <NODE systemname="PeakSpread (Spreads)" nodename="PeakSpread (Spreads)" componentmode="Hidden" id="10">
-   <BOUNDS type="Node" left="240" top="3465" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="3465" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="TypoSpread (Spreads)" nodename="TypoSpread (Spreads)" componentmode="Hidden" id="11">
-   <BOUNDS type="Node" left="225" top="3855" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="3855" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="CAR (Spreads)" nodename="CAR (Spreads)" componentmode="Hidden" id="12">
-   <BOUNDS type="Node" left="8460" top="3330" width="100" height="100">
+   <BOUNDS type="Node" left="8715" top="5100" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="CAR (Spreads Vector)" filename="%VVVV%\addonpack\lib\nodes\plugins\VectorSized.dll" nodename="CAR (Spreads Vector)" componentmode="Hidden" id="13">
-   <BOUNDS type="Node" left="9060" top="3345" width="100" height="100">
+   <BOUNDS type="Node" left="9360" top="5115" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="CDR (Spreads)" nodename="CDR (Spreads)" componentmode="Hidden" id="14">
-   <BOUNDS type="Node" left="8460" top="3795" width="100" height="100">
+   <BOUNDS type="Node" left="8715" top="5505" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="CDR (Spreads Vector)" filename="%VVVV%\addonpack\lib\nodes\plugins\VectorSized.dll" nodename="CDR (Spreads Vector)" componentmode="Hidden" id="15">
-   <BOUNDS type="Node" left="9030" top="3780" width="100" height="100">
+   <BOUNDS type="Node" left="9330" top="5490" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="NIL (Spreads)" filename="%VVVV%\lib\nodes\modules\Spreads\NIL (Spreads).v4p" nodename="NIL (Spreads)" componentmode="Hidden" id="16">
-   <BOUNDS type="Node" left="225" top="4260" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="4260" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="255" top="4260">
    </BOUNDS>
    </NODE>
    <NODE systemname="ScopeSpread (DShow9)" nodename="ScopeSpread (DShow9)" componentmode="Hidden" id="17">
-   <BOUNDS type="Node" left="210" top="4710" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="4710" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="BézierSpread (Spreads)" nodename="BézierSpread (Spreads)" componentmode="Hidden" id="18">
-   <BOUNDS type="Node" left="225" top="5175" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="5175" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="BézierSpread (Spreads Advanced)" filename="%VVVV%\addonpack\lib\nodes\plugins\BezierNodes.dll" nodename="BézierSpread (Spreads Advanced)" componentmode="Hidden" id="19">
-   <BOUNDS type="Node" left="240" top="5565" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="5565" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="255" top="5565">
    </BOUNDS>
    </NODE>
    <NODE systemname="Cons (Spreads)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Cons (Spreads)" componentmode="Hidden" id="20">
-   <BOUNDS type="Node" left="8460" top="4260" width="100" height="100">
+   <BOUNDS type="Node" left="8715" top="4260" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="8460" top="4260">
+   <BOUNDS type="Box" left="8715" top="4260">
    </BOUNDS>
    </NODE>
    <NODE systemname="Fibo (Spreads)" filename="%VVVV%\addonpack\lib\nodes\plugins\Fibonacci.dll" nodename="Fibo (Spreads)" componentmode="Hidden" id="21">
-   <BOUNDS type="Node" left="210" top="6015" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="6015" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="255" top="6015">
    </BOUNDS>
    </NODE>
    <NODE systemname="LinearSpread (Spreads)" nodename="LinearSpread (Spreads)" componentmode="Hidden" id="22">
@@ -77,31 +87,35 @@
    </BOUNDS>
    </NODE>
    <NODE systemname="RandomSpread (Spreads)" nodename="RandomSpread (Spreads)" componentmode="Hidden" id="23">
-   <BOUNDS type="Node" left="225" top="6735" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="6735" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Sort (Spreads)" nodename="Sort (Spreads)" componentmode="Hidden" id="24">
-   <BOUNDS type="Node" left="8460" top="4725" width="100" height="100">
+   <BOUNDS type="Node" left="12060" top="2625" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Sort (Spreads Advanced)" filename="%VVVV%\addonpack\lib\nodes\plugins\VVVV.Nodes.SortAdvanced.dll" nodename="Sort (Spreads Advanced)" componentmode="Hidden" id="25">
-   <BOUNDS type="Node" left="9060" top="4710" width="100" height="100">
+   <BOUNDS type="Node" left="12645" top="2610" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Swap (Spreads)" nodename="Swap (Spreads)" componentmode="Hidden" id="26">
-   <BOUNDS type="Node" left="8460" top="5160" width="100" height="100">
+   <BOUNDS type="Node" left="12060" top="3030" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="DensitySpread (Spreads)" filename="%VVVV%\lib\nodes\modules\Spreads\DensitySpread (Spreads).v4p" nodename="DensitySpread (Spreads)" componentmode="Hidden" id="27">
-   <BOUNDS type="Node" left="195" top="7170" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="7170" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="255" top="7170">
    </BOUNDS>
    </NODE>
    <NODE systemname="Levin (Spreads)" filename="%VVVV%\addonpack\lib\nodes\plugins\Levin.dll" nodename="Levin (Spreads)" componentmode="Hidden" id="28">
-   <BOUNDS type="Node" left="240" top="7590" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="7590" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="255" top="7590">
    </BOUNDS>
    </NODE>
    <NODE systemname="Levin (Spreads Simple)" nodename="Levin (Spreads Simple)" componentmode="Hidden" id="29">
-   <BOUNDS type="Node" left="945" top="7575" width="100" height="100">
+   <BOUNDS type="Node" left="990" top="7590" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Queue (Spreads)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Queue (Spreads)" componentmode="Hidden" id="30">
@@ -109,15 +123,15 @@
    </BOUNDS>
    </NODE>
    <NODE systemname="Shift (Spreads)" nodename="Shift (Spreads)" componentmode="Hidden" id="31">
-   <BOUNDS type="Node" left="8445" top="5565" width="100" height="100">
+   <BOUNDS type="Node" left="12105" top="3450" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Shift (Spreads Index)" filename="%VVVV%\lib\nodes\modules\Spreads\Shift (Spreads Index).v4p" nodename="Shift (Spreads Index)" componentmode="Hidden" id="32">
-   <BOUNDS type="Node" left="9000" top="5580" width="100" height="100">
+   <BOUNDS type="Node" left="12675" top="3450" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Shift (Spreads Vector)" filename="%VVVV%\addonpack\lib\nodes\plugins\VectorSized.dll" nodename="Shift (Spreads Vector)" componentmode="Hidden" id="33">
-   <BOUNDS type="Node" left="9750" top="5595" width="100" height="100">
+   <BOUNDS type="Node" left="13425" top="3465" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Store (Spreads)" filename="%VVVV%\addonpack\lib\nodes\plugins\Store.dll" nodename="Store (Spreads)" componentmode="Hidden" id="34">
@@ -125,7 +139,7 @@
    </BOUNDS>
    </NODE>
    <NODE systemname="Unify (Spreads Sets)" nodename="Unify (Spreads Sets)" componentmode="Hidden" id="35">
-   <BOUNDS type="Node" left="8430" top="6090" width="100" height="100">
+   <BOUNDS type="Node" left="12105" top="4365" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Buffer (Spreads)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Buffer (Spreads)" componentmode="Hidden" id="36">
@@ -137,23 +151,23 @@
    </BOUNDS>
    </NODE>
    <NODE systemname="GaussianSpread (Spreads)" nodename="GaussianSpread (Spreads)" componentmode="Hidden" id="38">
-   <BOUNDS type="Node" left="300" top="8535" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="8535" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Scroll (Spreads)" nodename="Scroll (Spreads)" componentmode="Hidden" id="39">
-   <BOUNDS type="Node" left="8430" top="6525" width="100" height="100">
+   <BOUNDS type="Node" left="12105" top="4800" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Verlet (Spreads Simple)" nodename="Verlet (Spreads Simple)" componentmode="Hidden" id="40">
-   <BOUNDS type="Node" left="270" top="9015" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="9015" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="AttractorSpread (Spreads)" nodename="AttractorSpread (Spreads)" componentmode="Hidden" id="41">
-   <BOUNDS type="Node" left="270" top="9465" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="9465" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Connect (Spreads)" filename="%VVVV%\addonpack\lib\nodes\plugins\VectorSized.dll" nodename="Connect (Spreads)" componentmode="Hidden" id="42">
-   <BOUNDS type="Node" left="8415" top="7245" width="100" height="100">
+   <BOUNDS type="Node" left="12090" top="5580" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input" visible="1" slicecount="4" values="0,0,0,1">
    </PIN>
@@ -161,101 +175,105 @@
    </PIN>
    <PIN pinname="Close" slicecount="1" values="1">
    </PIN>
+   <BOUNDS type="Box" left="12090" top="5580">
+   </BOUNDS>
    </NODE>
    <NODE systemname="KeySort (Spreads)" nodename="KeySort (Spreads)" componentmode="Hidden" id="44">
-   <BOUNDS type="Node" left="8415" top="6900" width="100" height="100">
+   <BOUNDS type="Node" left="12075" top="5205" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Reverse (Spreads)" nodename="Reverse (Spreads)" componentmode="Hidden" id="45">
-   <BOUNDS type="Node" left="8490" top="7665" width="100" height="100">
+   <BOUNDS type="Node" left="12090" top="3885" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Reverse (Spreads Vector)" filename="%VVVV%\addonpack\lib\nodes\plugins\VectorSized.dll" nodename="Reverse (Spreads Vector)" componentmode="Hidden" id="46">
-   <BOUNDS type="Node" left="9225" top="7680" width="100" height="100">
+   <BOUNDS type="Node" left="12840" top="3900" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="SphericalSpread (Spreads)" filename="%VVVV%\addonpack\lib\nodes\plugins\SphericalSpread.dll" nodename="SphericalSpread (Spreads)" componentmode="Hidden" id="47">
-   <BOUNDS type="Node" left="240" top="9885" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="9885" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="255" top="9885">
    </BOUNDS>
    </NODE>
    <NODE systemname="SwapDim (Spreads)" nodename="SwapDim (Spreads)" componentmode="Hidden" id="48">
-   <BOUNDS type="Node" left="8430" top="8115" width="100" height="100">
+   <BOUNDS type="Node" left="12090" top="6000" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Tangent (Spreads)" filename="%VVVV%\addonpack\lib\nodes\plugins\TangentSpreads.dll" nodename="Tangent (Spreads)" componentmode="Hidden" id="50">
-   <BOUNDS type="Node" left="8460" top="8475" width="100" height="100">
+   <BOUNDS type="Node" left="15300" top="2490" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15300" top="2490">
    </BOUNDS>
    </NODE>
    <NODE systemname="AvoidNIL (Spreads)" filename="%VVVV%\lib\nodes\modules\Spreads\AvoidNIL (Spreads).v4p" nodename="AvoidNIL (Spreads)" componentmode="Hidden" id="51">
-   <BOUNDS type="Node" left="900" top="4260" width="100" height="100">
+   <BOUNDS type="Node" left="930" top="4260" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Disperse (Spreads)" filename="%VVVV%\addonpack\lib\nodes\plugins\Disperse.dll" nodename="Disperse (Spreads)" componentmode="Hidden" id="52">
-   <BOUNDS type="Node" left="8445" top="8850" width="100" height="100">
+   <BOUNDS type="Node" left="15300" top="2865" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15300" top="2865">
    </BOUNDS>
    </NODE>
    <NODE systemname="GetSlice (Spreads)" nodename="GetSlice (Spreads)" componentmode="Hidden" id="53">
-   <BOUNDS type="Node" left="3810" top="4170" width="100" height="100">
+   <BOUNDS type="Node" left="3375" top="4275" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Integral (Spreads)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Integral (Spreads)" componentmode="Hidden" id="54">
-   <BOUNDS type="Node" left="8445" top="9240" width="100" height="100">
+   <BOUNDS type="Node" left="15300" top="3255" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15300" top="3255">
    </BOUNDS>
    </NODE>
    <NODE systemname="Integral (Spreads Vector)" filename="%VVVV%\addonpack\lib\nodes\plugins\VectorSized.dll" nodename="Integral (Spreads Vector)" componentmode="Hidden" id="55">
-   <BOUNDS type="Node" left="9180" top="9255" width="100" height="100">
+   <BOUNDS type="Node" left="16065" top="3270" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Interval (Spreads)" nodename="Interval (Spreads)" componentmode="Hidden" id="56">
-   <BOUNDS type="Node" left="8490" top="9855" width="100" height="100">
+   <BOUNDS type="Node" left="15300" top="3690" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Pairwise (Spreads)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Pairwise (Spreads)" componentmode="Hidden" id="57">
-   <BOUNDS type="Node" left="8520" top="10245" width="100" height="100">
+   <BOUNDS type="Node" left="12135" top="8895" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="12135" top="8895">
    </BOUNDS>
    </NODE>
    <NODE systemname="Resample (Spreads)" nodename="Resample (Spreads)" componentmode="Hidden" id="58">
-   <BOUNDS type="Node" left="8490" top="10620" width="100" height="100">
+   <BOUNDS type="Node" left="12090" top="6435" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="SetSlice (Spreads)" nodename="SetSlice (Spreads)" componentmode="Hidden" id="60">
-   <BOUNDS type="Node" left="3795" top="4995" width="100" height="100">
+   <BOUNDS type="Node" left="3375" top="4665" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Stallone (Spreads)" nodename="Stallone (Spreads)" componentmode="Hidden" id="61">
-   <BOUNDS type="Node" left="11655" top="3345" width="100" height="100">
-   </BOUNDS>
-   </NODE>
-   <NODE systemname="Zip (2d)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Zip (2d)" componentmode="Hidden" id="62">
-   <BOUNDS type="Node" left="11685" top="3780" width="100" height="100">
-   </BOUNDS>
-   </NODE>
-   <NODE systemname="Zip (3d)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Zip (3d)" componentmode="Hidden" id="63">
-   <BOUNDS type="Node" left="12150" top="3780" width="100" height="100">
-   </BOUNDS>
-   </NODE>
-   <NODE systemname="Zip (4d)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Zip (4d)" componentmode="Hidden" id="64">
-   <BOUNDS type="Node" left="12555" top="3780" width="100" height="100">
+   <BOUNDS type="Node" left="8715" top="3015" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Barcode1d (Spreads)" nodename="Barcode1d (Spreads)" componentmode="Hidden" id="65">
-   <BOUNDS type="Node" left="3870" top="7155" width="100" height="100">
+   <BOUNDS type="Node" left="6375" top="9255" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Intersect (Spreads Sets)" nodename="Intersect (Spreads Sets)" componentmode="Hidden" id="66">
-   <BOUNDS type="Node" left="8520" top="10995" width="100" height="100">
+   <BOUNDS type="Node" left="12105" top="6885" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="MultiCons (Spreads Advanced)" filename="%VVVV%\addonpack\lib\nodes\plugins\MultiCons.dll" nodename="MultiCons (Spreads Advanced)" componentmode="Hidden" id="67">
-   <BOUNDS type="Node" left="11835" top="7575" width="100" height="100">
+   <BOUNDS type="Node" left="18480" top="3375" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Particles (Spreads)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Particles (Spreads)" componentmode="Hidden" id="68">
    <BOUNDS type="Node" left="255" top="10365" width="100" height="100">
    </BOUNDS>
+   <BOUNDS type="Box" left="255" top="10365">
+   </BOUNDS>
    </NODE>
    <NODE systemname="Randomize (Spreads)" filename="%VVVV%\lib\nodes\modules\Spreads\Randomize (Spreads).v4p" nodename="Randomize (Spreads)" componentmode="Hidden" id="69">
-   <BOUNDS type="Node" left="8565" top="11400" width="100" height="100">
+   <BOUNDS type="Node" left="12105" top="7275" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="12105" top="7275">
    </BOUNDS>
    </NODE>
    <NODE systemname="RingBuffer (Spreads)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="RingBuffer (Spreads)" componentmode="Hidden" id="71">
@@ -263,81 +281,63 @@
    </BOUNDS>
    </NODE>
    <NODE systemname="Substitute (Spreads)" nodename="Substitute (Spreads)" componentmode="Hidden" id="72">
-   <BOUNDS type="Node" left="8595" top="11805" width="100" height="100">
-   </BOUNDS>
-   </NODE>
-   <NODE systemname="Unzip (2d)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Unzip (2d)" componentmode="Hidden" id="73">
-   <BOUNDS type="Node" left="11640" top="4305" width="100" height="100">
-   </BOUNDS>
-   </NODE>
-   <NODE systemname="Unzip (3d)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Unzip (3d)" componentmode="Hidden" id="74">
-   <BOUNDS type="Node" left="12195" top="4305" width="100" height="100">
-   </BOUNDS>
-   </NODE>
-   <NODE systemname="Unzip (4d)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Unzip (4d)" componentmode="Hidden" id="75">
-   <BOUNDS type="Node" left="12735" top="4305" width="100" height="100">
+   <BOUNDS type="Node" left="12120" top="7665" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Variations (Spreads)" filename="%VVVV%\addonpack\lib\nodes\plugins\CombinatoricsNodes.dll" nodename="Variations (Spreads)" componentmode="Hidden" id="76">
-   <BOUNDS type="Node" left="11835" top="8295" width="100" height="100">
+   <BOUNDS type="Node" left="18480" top="4095" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="DeleteSlice (Spreads)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="DeleteSlice (Spreads)" componentmode="Hidden" id="77">
-   <BOUNDS type="Node" left="3795" top="5415" width="100" height="100">
+   <BOUNDS type="Node" left="3375" top="5160" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3375" top="5160">
    </BOUNDS>
    </NODE>
    <NODE systemname="InsertSlice (Spreads)" nodename="InsertSlice (Spreads)" componentmode="Hidden" id="78">
-   <BOUNDS type="Node" left="3795" top="5775" width="100" height="100">
+   <BOUNDS type="Node" left="3375" top="5520" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Lindenmayer (Spreads)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Lindenmayer (Spreads)" componentmode="Hidden" id="79">
    <BOUNDS type="Node" left="255" top="10800" width="100" height="100">
    </BOUNDS>
+   <BOUNDS type="Box" left="255" top="10800">
+   </BOUNDS>
    </NODE>
    <NODE systemname="Combinations (Spreads)" filename="%VVVV%\addonpack\lib\nodes\plugins\CombinatoricsNodes.dll" nodename="Combinations (Spreads)" componentmode="Hidden" id="80">
-   <BOUNDS type="Node" left="11850" top="7920" width="100" height="100">
+   <BOUNDS type="Node" left="18495" top="3720" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="CountIndices (Spreads)" nodename="CountIndices (Spreads)" componentmode="Hidden" id="81">
-   <BOUNDS type="Node" left="8580" top="12255" width="100" height="100">
+   <BOUNDS type="Node" left="12120" top="8100" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Differential (Spreads)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Differential (Spreads)" componentmode="Hidden" id="82">
-   <BOUNDS type="Node" left="8565" top="12690" width="100" height="100">
+   <BOUNDS type="Node" left="15300" top="4080" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15300" top="4080">
    </BOUNDS>
    </NODE>
    <NODE systemname="Differential (Spreads Vector)" filename="%VVVV%\addonpack\lib\nodes\plugins\VectorSized.dll" nodename="Differential (Spreads Vector)" componentmode="Hidden" id="83">
-   <BOUNDS type="Node" left="9495" top="12690" width="100" height="100">
+   <BOUNDS type="Node" left="16380" top="4080" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="Permutations (Spreads)" filename="%VVVV%\addonpack\lib\nodes\plugins\CombinatoricsNodes.dll" nodename="Permutations (Spreads)" componentmode="Hidden" id="84">
-   <BOUNDS type="Node" left="11805" top="7200" width="100" height="100">
+   <BOUNDS type="Node" left="18450" top="3000" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="SevenSegment (Spreads)" nodename="SevenSegment (Spreads)" componentmode="Hidden" id="85">
-   <BOUNDS type="Node" left="240" top="11595" width="100" height="100">
-   </BOUNDS>
-   </NODE>
-   <NODE systemname="Zip (2d Bin)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Zip (2d Bin)" componentmode="Hidden" id="86">
-   <BOUNDS type="Node" left="13320" top="3795" width="100" height="100">
-   </BOUNDS>
-   </NODE>
-   <NODE systemname="Zip (3d Bin)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Zip (3d Bin)" componentmode="Hidden" id="87">
-   <BOUNDS type="Node" left="13995" top="3795" width="100" height="100">
-   </BOUNDS>
-   </NODE>
-   <NODE systemname="Zip (4d Bin)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Zip (4d Bin)" componentmode="Hidden" id="88">
-   <BOUNDS type="Node" left="14685" top="3780" width="100" height="100">
+   <BOUNDS type="Node" left="255" top="11595" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE systemname="StructureSynth (Spreads)" filename="%VVVV%\addonpack\lib\nodes\plugins\vuxbins\StructureSynthNETWrapper.dll" nodename="StructureSynth (Spreads)" componentmode="Hidden" id="89">
-   <BOUNDS type="Node" left="5295" top="9885" width="100" height="100">
+   <BOUNDS type="Node" left="6360" top="8865" width="100" height="100">
    </BOUNDS>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="90" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="5715" top="9465" width="555" height="270">
+   <BOUNDS type="Node" left="6780" top="8340" width="555" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="5715" top="9465" width="1050" height="375">
+   <BOUNDS type="Box" left="6780" top="8340" width="1050" height="375">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="What?">
    </PIN>
@@ -353,7 +353,259 @@
    <NODE systemname="EisensteinPrimes (Spreads)" filename="%VVVV%\addonpack\lib\nodes\plugins\EisensteinPrimes.dll" nodename="EisensteinPrimes (Spreads)" componentmode="Hidden" id="91">
    <BOUNDS type="Node" left="255" top="11190" width="100" height="100">
    </BOUNDS>
+   <BOUNDS type="Box" left="255" top="11190">
+   </BOUNDS>
    </NODE>
    <PACK Name="addonpack" Version="33.3.0">
    </PACK>
+   <NODE systemname="SplitAt (Value)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="SplitAt (Value)" componentmode="Hidden" id="92">
+   <BOUNDS type="Node" left="8715" top="4725" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="8715" top="4725">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Stack (Value)" filename="%VVVV%\addonpack\lib\nodes\plugins\VVVV.Nodes.Stacks.dll" nodename="Stack (Value)" componentmode="Hidden" id="93">
+   <BOUNDS type="Node" left="5940" top="4950" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Simplex (2d)" filename="%VVVV%\addonpack\lib\nodes\plugins\SimplexNoise.dll" nodename="Simplex (2d)" componentmode="Hidden" id="94">
+   <BOUNDS type="Node" left="6375" top="9630" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6375" top="9630">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Select (XElement)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Select (XElement)" componentmode="Hidden" id="95">
+   <BOUNDS type="Node" left="8700" top="5940" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="8700" top="5940">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Occurrence (Value)" filename="%VVVV%\addonpack\lib\nodes\plugins\Occurrence.dll" nodename="Occurrence (Value)" componentmode="Hidden" id="97">
+   <BOUNDS type="Node" left="12120" top="8505" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="12120" top="8505">
+   </BOUNDS>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="98" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="255" top="1455" width="1470" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="255" top="1455" width="1785" height="825">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Spread Generators|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="16">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="99" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="3375" top="1455" width="1470" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3375" top="1455" width="1800" height="1545">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Picking &amp; Inserting, Deleting Slices|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="16">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="100" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="5880" top="1455" width="1470" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="5880" top="1455" width="1785" height="825">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="Store">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="16">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="101" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="15180" top="1380" width="1470" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15180" top="1380" width="1785" height="825">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Spectral operations|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="16">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="102" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="8595" top="1440" width="1470" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="8595" top="1440" width="2445" height="1245">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Cons / Decons spreads|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="16">
+   </PIN>
+   </NODE>
+   <NODE systemname="Zip (Value)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Zip (Value)" componentmode="Hidden" id="103">
+   <BOUNDS type="Node" left="8715" top="3465" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Unzip (Value)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Unzip (Value)" componentmode="Hidden" id="104">
+   <BOUNDS type="Node" left="8715" top="3855" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="105" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="18375" top="1455" width="1470" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="18375" top="1455" width="2355" height="465">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="Combinatorics">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="16">
+   </PIN>
+   </NODE>
+   <NODE systemname="OR (Boolean Spectral)" nodename="OR (Boolean Spectral)" componentmode="Hidden" id="106">
+   <BOUNDS type="Node" left="15270" top="5595" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="AND (Boolean Spectral)" nodename="AND (Boolean Spectral)" componentmode="Hidden" id="107">
+   <BOUNDS type="Node" left="15795" top="5595" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Subtract (Spreads Sets)" nodename="Subtract (Spreads Sets)" componentmode="Hidden" id="108">
+   <BOUNDS type="Node" left="16710" top="6630" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Add (Value Spectral)" nodename="Add (Value Spectral)" componentmode="Hidden" id="109">
+   <BOUNDS type="Node" left="15270" top="6630" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Add (Value Spectral Vector)" filename="%VVVV%\addonpack\lib\nodes\plugins\VectorSized.dll" nodename="Add (Value Spectral Vector)" componentmode="Hidden" id="110">
+   <BOUNDS type="Node" left="15690" top="6630" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15690" top="6630">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Mean (Spectral)" nodename="Mean (Spectral)" componentmode="Hidden" id="112">
+   <BOUNDS type="Node" left="15300" top="7020" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Mean (Spectral Vector)" filename="%VVVV%\addonpack\lib\nodes\plugins\VectorSized.dll" nodename="Mean (Spectral Vector)" componentmode="Hidden" id="113">
+   <BOUNDS type="Node" left="15900" top="7020" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15900" top="7020">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Cross (Spectral)" filename="%VVVV%\addonpack\lib\nodes\plugins\VectorSized.dll" nodename="Cross (Spectral)" componentmode="Hidden" id="114">
+   <BOUNDS type="Node" left="15300" top="7425" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15300" top="7425">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Bounds (Spectral)" nodename="Bounds (Spectral)" componentmode="Hidden" id="115">
+   <BOUNDS type="Node" left="15945" top="7425" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Multiply (Value Spectral)" nodename="Multiply (Value Spectral)" componentmode="Hidden" id="116">
+   <BOUNDS type="Node" left="16290" top="6630" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Indices (Spectral)" nodename="Indices (Spectral)" componentmode="Hidden" id="117">
+   <BOUNDS type="Node" left="15300" top="7770" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="Variance (Spectral)" nodename="Variance (Spectral)" componentmode="Hidden" id="118">
+   <BOUNDS type="Node" left="15975" top="7770" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="MeanSquare (Spectral)" nodename="MeanSquare (Spectral)" componentmode="Hidden" id="119">
+   <BOUNDS type="Node" left="15300" top="8160" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="HarmonicMean (Spectral)" nodename="HarmonicMean (Spectral)" componentmode="Hidden" id="120">
+   <BOUNDS type="Node" left="15300" top="8535" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="GeometricMean (Spectral)" nodename="GeometricMean (Spectral)" componentmode="Hidden" id="121">
+   <BOUNDS type="Node" left="15300" top="8910" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE systemname="RootMeanSquare (Spectral)" nodename="RootMeanSquare (Spectral)" componentmode="Hidden" id="122">
+   <BOUNDS type="Node" left="15300" top="9255" width="100" height="100">
+   </BOUNDS>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="123" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="15210" top="6165" width="1470" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15210" top="6165" width="810" height="345">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="Math">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="13">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="124" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="15195" top="5190" width="1470" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15195" top="5190" width="1230" height="360">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="13">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="125" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="11970" top="1425" width="1470" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="11970" top="1425" width="2445" height="1245">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Manipulating Spreads|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   <PIN pinname="Size" slicecount="1" values="16">
+   </PIN>
+   </NODE>
    </PATCH>
