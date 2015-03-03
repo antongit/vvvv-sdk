@@ -1,0 +1,75 @@
+<style>
+div
+{
+	
+}
+
+body
+{
+font-family: Verdana;
+font-size: 10px;
+background-color: #1F354C;
+color:#D3E8FF;
+}
+
+.alert
+{
+	color: #ffffff;
+	background-color: #723841;
+}
+
+.credits
+{
+    width: 350px;
+    height: 150px;
+    overflow: auto;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.version
+{
+	font-size: 25px;
+	color: #ffffff;
+}
+.path
+{
+	clear: both;
+	width: 100%;
+	height: 15px;
+}
+
+.desc
+{
+	text-transform: uppercase;
+	font-size: 8px;
+	color: #6E859B;
+	border: none;
+	padding: 0px;
+}
+
+.data
+{
+	border: 1px solid #6E859B;
+	padding: 10px;
+	height: 100%;
+	float: left;
+}
+
+.architecture
+{
+	background-color: #3C5369;
+	color: #D3E8FF;
+}
+
+.bottomContainer
+{
+	height: 30px;
+	width: 600px;
+}
+
+.inline
+{
+	clear: both;
+}
+</style>
